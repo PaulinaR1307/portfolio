@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title> Paulina Reyes | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>PAULINA REYES</h1>
+        <ul class="navegacion">
+          <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="sobremi">
+        <img src="./portafolio-web/assets/images/pau.jpeg" alt="Pau" loading="lazy" class="hero-img"/>
+        <div class="bio">
+          <h2 class="bio-titulo">Sobre Mí</h2>
+          <p class="bio-texto">
+            <b>Estudiante de desarrollo web. Conocimiento en HTML, CSS, JavaScript, SQL, Python, React. Y activamente buscando aprender mucho más.</b>
+          </p>
+        </div>
+  </section>
+
+    <!-- More about -->
+    <section class="mas-sobre">
+        <h2>Más sobre mí</h2>
+        <p>
+          <b>Manejo del idioma inglés, nivel avanzado conversacional B2. Y actualmente en clases de portugues. Amplio gusto por los idiomas.</b>
+        </p>
+        <p>
+          <b>Una persona que aparte de aportar muchos conocimientos al área de trabajo, también aportará una excelente relación laboral con todos mis compañeros y superiores. Mis mayores cualidad son la empatia, el servicio, y la responsabilidad.</b>
+        </p>
+        <p>
+          <b>Cuento con mucha creatividad, gusto por la tecnología y mucha hambre de conocimiento.</b>
+        </p>
+      </section>
+
+    <!-- Skills section -->
+
+    <section class="habilidades" id="habilidades">
+        <h2 class="header-habilidades">Mis mejores habilidades</h2>
+  
+        <div class="contenedor-habilidades">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="./portafolio-web/assets/images/HTML.png"
+              alt=""
+              loading="lazy"
+              class="icon-card"
+            />
+            <img
+              src="./portafolio-web/assets/images/CSS.png"
+              alt=""
+              loading="lazy"
+              class="icon-card"
+            />
+            <img
+              src="./portafolio-web/assets/images/JS.png"
+              alt=""
+              loading="lazy"
+              class="icon-card"
+            />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="./portafolio-web/assets/images/sql.png"
+              alt=""
+              loading="lazy"
+              class="icon-card"
+            />
+            <img
+              src="./portafolio-web/assets/images/python.png"
+              alt=""
+              loading="lazy"
+              class="icon-card"
+            />
+            <img
+              src="./portafolio-web/assets/images/react.png"
+              alt=""
+              loading="lazy"
+              class="icon-card"
+            />
+          </div>
+        </div> 
+      </section>
+
+    <!-- Projects section -->
+
+    <section class="proyectos" id="proyectos">
+        <h3 class="proyectos-recientes">Algunos de mis proyectos recientes</h3>
+        <div class="contenedor-de-proyectos">
+            <img
+              src="./portafolio-web/assets/images/proyecto-2.jpeg"
+              alt="Pokedex"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h2 class="titulo-de-proyectos">Pokedex</h2>
+            <p class="detalles-proyecto"> <b>
+              Buscador de pokemones. Busca y encuentra la información de tu pokemon favorito. </b>
+            </p>
+            <a href="https://github.com/PaulinaR1307/pokedex" target="pokedex" class="enlace-de-proyecto">Echale un vistazo</a>
+          </div>
+          <div class="contenedor-de-proyectos">
+            <img src="./portafolio-web/assets/images/proyecto-1.jpeg" alt="Quiz App"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h2 class="titulo-de-proyectos">QuizApp</h2>
+            <p class="detalles-proyecto"> <b>Utilizando la API de QuizApp tenemos acceso a información de diferentes rubros.</b>
+              
+            </p>
+            <a href="https://github.com/PaulinaR1307/QUIZ-APP" target="github" class="project-link">Echale un vistazo</a>
+          </div>
+          <div class="contenedor-de-proyectos">
+            <img
+              src="./portafolio-web/assets/images/pinterest.jpeg"
+              alt="Pinterest"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyectos">Pinterest</h3>
+            <p class="detalles-proyecto"> <b> Interfaz de Pinterest con buscador, efecto hoover, hecho sin utilizar JavaScript, solamente HTML y CSS. Primer proyecto.</b>
+              
+            </p>
+            <a href="https://github.com/PaulinaR1307/paulinar1307.github.io" target="_blank" class="enlace-de-proyecto">Echale un vistazo</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- Contact section -->
+
+    <section class="contacto" id="contacto">
+        <h2 class="contactame">Contáctame</h2>
+        <div class="formulario-contacto-contenedor">
+          <div class="contenedor-formulario-contacto">
+            <form action="https://formspree.io/f/maygogny" 
+            method="POST"
+            >
+              <div class="control-formulario">
+                <label for="name">Nombre</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Escribe tu nombre"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="email">Correo Electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Ingreso tu correo electrónico"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  cols="60"
+                  rows="10"
+                  placeholder="Escribe tu mensaje"
+                  name="mensaje"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Enviar"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Social accounts - Fixed to the right --> 
+    <div class="sociales">
+      <a href="https://api.whatsapp.com/send?phone=528134418241" target="_blank"
+      > <img
+        src="./portafolio-web/assets/icons/icons8-whatsapp-48.png"
+        alt="WhatsApp"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://www.instagram.com/itspaurt/" target="_blank"
+      ><img
+        src="./portafolio-web/assets/icons/icons8-instagram-48.png"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://www.linkedin.com/in/paulina-reyes-8a404326b/" target="_blank"
+      ><img
+        src="./portafolio-web/assets/icons/icons8-linkedin-100.png"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://github.com/PaulinaR1307" target="_blank"
+      ><img src="./portafolio-web/assets/icons/icons8-github-100.png" alt="Github" class="socicon"
+    /></a>
+
+    <!-- Footer section -->
+
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
